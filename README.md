@@ -38,18 +38,23 @@ A SwiftUI-based iOS app built in Swift, **Crypto‑Tracker** displays real-time 
 ## 📸 Screenshots
 
 ### Loading Screen
-![Loading Screen](CryptoTracker/Screenshots/LoadingScreen.png)
+<img src="CryptoTracker/Screenshots/LoadingScreen.png" alt="Loading Screen" width="300"/>
+
 ### Home Screen
-![Home Screen](CryptoTracker/Screenshots/HomeScreen.png)
+<img src="CryptoTracker/Screenshots/HomeScreen.png" alt="Home Screen" width="300"/>
+
 ### Portfolio
-![Portfolio](CryptoTracker/Screenshots/Portfolio.png)
+<img src="CryptoTracker/Screenshots/Portfolio.png" alt="Portfolio" width="300"/>
+
 ### Add Coins
-![Add Coins](CryptoTracker/Screenshots/AddCoins.png)
+<img src="CryptoTracker/Screenshots/AddCoins.png" alt="Add Coins" width="300"/>
+
 ### Coin Details
-![Coin Detail](CryptoTracker/Screenshots/CoinDetails1.png)
-![Coin Detail](CryptoTracker/Screenshots/CoinDetails2.png)
+<img src="CryptoTracker/Screenshots/CoinDetails1.png" alt="CoinDetails" width="300"/>
+<img src="CryptoTracker/Screenshots/CoinDetails2.png" alt="CoinDetails" width="300"/>
+
 ### Settings
-![Settings](CryptoTracker/Screenshots/Settings.png)
+<img src="CryptoTracker/Screenshots/Settings.png" alt="Settings" width="300"/>
 
 ---
 

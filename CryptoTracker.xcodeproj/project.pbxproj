@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		423976092E66ED3D00640A91 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 423976082E66ED3D00640A91 /* SDWebImageSwiftUI */; };
 		42FF826E2E2C113500235A7F /* CryptoTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FF826D2E2C113500235A7F /* CryptoTrackerApp.swift */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				423976092E66ED3D00640A91 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +73,7 @@
 			);
 			name = CryptoTracker;
 			packageProductDependencies = (
+				423976082E66ED3D00640A91 /* SDWebImageSwiftUI */,
 			);
 			productName = CryptoTracker;
 			productReference = 42FF826A2E2C113500235A7F /* CryptoTracker.app */;
@@ -100,6 +103,9 @@
 			);
 			mainGroup = 42FF82612E2C113500235A7F;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				423976072E66ED3D00640A91 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 42FF826B2E2C113500235A7F /* Products */;
 			projectDirPath = "";
@@ -329,6 +335,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		423976072E66ED3D00640A91 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		423976082E66ED3D00640A91 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 423976072E66ED3D00640A91 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 42FF82622E2C113500235A7F /* Project object */;
 }

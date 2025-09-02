@@ -6,35 +6,23 @@
 //
 
 import SwiftUI
+import SDWebImageSwiftUI
 
 struct CoinImageView: View {
-    
-    @StateObject var imageVM: CoinImageViewModel
-    
-    init(coin: CoinModel) {
-        _imageVM = StateObject(wrappedValue: CoinImageViewModel(coin: coin))
-    }
+    let coin: CoinModel
     
     var body: some View {
-        ZStack {
-            if let image = imageVM.image {
-                Image(uiImage: image)
-                    .resizable()
-                    .scaledToFit()
-            }
-            else if imageVM.isLoading {
-                ProgressView()
-            }
-            else {
-                Image(systemName: "questionmark")
-                    .foregroundStyle(Color.theme.secondaryText)
-            }
-        }
+        WebImage(url: URL(string: coin.image))
+            .resizable()
+            .indicator(.activity)
+            .scaledToFit()
     }
 }
 
 struct CoinImageView_Previews: PreviewProvider {
     static var previews: some View {
         CoinImageView(coin: dev.coin)
+            .frame(width: 50, height: 50)
     }
 }
+

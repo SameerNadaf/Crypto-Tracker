@@ -113,6 +113,9 @@ extension HomeView {
                 .listRowBackground(Color.theme.background)
             }
         }
+        .refreshable {
+            vm.reloadData()
+        }
         .listStyle(.plain)
     }
     
@@ -127,6 +130,9 @@ extension HomeView {
                 }
                 .listRowBackground(Color.theme.background)
             }
+        }
+        .refreshable {
+            vm.reloadData()
         }
         .listStyle(.plain)
     }
@@ -181,16 +187,6 @@ extension HomeView {
                     vm.sortOption = vm.sortOption == .price ? .reversePrice : .price
                 }
             }
-            
-            Button {
-                withAnimation(.linear(duration: 2)) {
-                    vm.reloadData()
-                }
-            } label: {
-                Image(systemName: "goforward")
-                    .rotationEffect(Angle(degrees: vm.isLoading ? 360 : 0))
-            }
-            .sensoryFeedback(.success, trigger: vm.isLoading)
 
         }
         .font(.caption)

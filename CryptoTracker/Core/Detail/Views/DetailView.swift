@@ -20,7 +20,6 @@ struct DetailView: View {
     
     init(coin: CoinModel) {
         _vm = StateObject(wrappedValue: DetailViewModel(coin: coin))
-        print("Initializing DetailView for \(coin.name)")
     }
     
     var body: some View {

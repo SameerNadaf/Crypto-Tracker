@@ -1,31 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "ios-marketing.png",
-      "idiom" : "universal",
-      "platform" : "ios",
-      "size" : "1024x1024"
-    },
-    {
-      "appearances" : [
-        {
-          "appearance" : "luminosity",
-          "value" : "dark"
-        }
-      ],
-      "filename" : "ios-marketing 1.png",
-      "idiom" : "universal",
-      "platform" : "ios",
-      "size" : "1024x1024"
-    },
-    {
-      "appearances" : [
-        {
-          "appearance" : "luminosity",
-          "value" : "tinted"
-        }
-      ],
-      "filename" : "ios-marketing 2.png",
+      "filename" : "bitcoin.png",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
